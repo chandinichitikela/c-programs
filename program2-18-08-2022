@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+	int arr[]={3,2};
+	int len=sizeof(arr)/sizeof(int);
+	int i,n,f=1;
+	
+	for(i=0;i<len;i++){
+		n=arr[i];
+		while(n>0)
+		{
+			f=f*n;
+			n--;
+     }
+    }
+    printf("%d",f);
+} 
